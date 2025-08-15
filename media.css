@@ -1,0 +1,116 @@
+@media (min-width: 640px) {
+
+.nav-ul ul{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+  padding: 5px 0;
+  position: relative;
+    width: 100%;
+  background-color: transparent;
+}
+.nav-ul:hover  ul{
+    padding:0px;
+}
+.Navbutton{
+    display: none;
+}
+.hero-text{
+ width: 40%;
+  height: 90%;
+}
+
+}
+
+@media (min-width: 768px) {
+.menu-categories .container{
+  height: 100%;
+     grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 2 1fr;
+  
+}
+.menu-categories .container .inner-container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.menu-categories .container .card{
+     padding: 50px 10px;
+     height: 80%;
+}
+.burger-components{
+height: 550px;
+
+}
+.burger-components .container{
+  grid-template-columns: repeat(2,1fr);  
+}
+.burger-components .container ul li h3{
+  font-size: 1em;    
+}
+}
+@media (min-width: 1024px) {
+header{
+      height: 120vh;
+}
+.hero-text h2{
+    font-size: 35px;
+}
+.hero-text p{
+    font-size: larger;
+    padding: 20px 0;
+}
+.menu-categories{
+ height: 350px;
+  }
+.menu-categories .container{
+  
+     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1 1fr;
+ overflow: hidden;
+}
+.menu-categories .container .inner-container{
+  height: 100%;
+  padding: 0 10px;
+}
+.burger-components .container ul{
+    padding: 20px 0;
+}
+.burger-components .container  ul li h3{
+    font-size: 25px;
+
+}
+.burger-components .container .burger-comp-img{
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+.burger-components .container .burger-comp-img img{
+width: 70%;
+}
+
+}
+@media (min-width: 1280px) {
+.burger-components .container  ul li h3{
+    font-size: 30px;
+}
+.burger-components .container .burger-comp-img img{
+width: 60%;
+}
+}
+
+@media (min-width: 1536px) {
+}
+
+
+/* 
+
+
+
+
+
+
+Contact Us
+Book a tabia
+
+*/

@@ -1,0 +1,269 @@
+@font-face {
+  font-family: "Roboto_Serif";
+  src: url(Roboto_Serif/RobotoSerif-VariableFont_GRAD\opsz\wdth\wght.ttf);
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+    
+  font-family: "Roboto_Serif";
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.container{
+    width: 80%;
+}
+.py-50{
+    padding: 50px 0;
+}
+.gold{
+  color: gold;
+}
+/* there is only one h1 in the page in hero section */
+h1{
+    font-family: 'Londrina Outline';
+    font-weight: 600;
+    font-size: 90px;
+    
+}
+/*start header  */
+header{
+        color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.587)), url('images/banner.jpg');
+    background-size: cover;
+    background-position: center  ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+     justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+/* start nav first header part */
+nav{
+    width: 100%;
+        display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  
+}
+.nav-ul,.logo{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.logo h2
+{
+padding:0 5px ;
+}
+.nav-ul{
+    position: relative;
+    width: fit-content;
+}
+.nav-ul ul{
+    width: 0px;
+    overflow: hidden;
+     position: absolute;
+     top:105%;
+     left: 0%;
+     background-color: black;
+     transform: translate(-20%,0%);
+     transition: all 1s ;
+   
+}
+.nav-ul ul li:hover a{
+color:  gold;
+}
+.nav-ul:hover  ul{
+    width: fit-content;
+     padding:2px 5px;
+}
+.nav-ul ul li{
+    padding: 0 5px;
+}
+.Navbutton span{
+    display: block;
+    margin: 2px 0;
+ width: 30px;
+ height: 3px;
+ background-color: black;
+}
+/* end nav  first header part  */
+header .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* start header text second header part */
+.hero-text{
+      height: 80%;
+      padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.gold-bg-outline-buttons{
+    padding: 25px 0;
+    display: flex;
+   align-items: center;
+}
+.gold-bg-outline-buttons button{
+      
+      padding: 13px 23px;
+      border-radius: 5px;
+      border: 0;
+      
+}
+.gold-bg-outline-buttons .gold-bg{
+    background-color:rgb(187, 161, 16);
+    margin-right: 10px;
+}
+.gold-bg-outline-buttons .gold-outline{
+background-color: transparent;
+border:1px solid rgb(187, 161, 16);
+color:rgb(187, 161, 16);
+}
+/* end header */
+/* start menu section */
+.menu-categories{
+   
+    background-color:#dbd5d5;
+    display: flex;
+    justify-content: center;
+      align-items: center;
+    
+    padding: 20px 0;
+    
+}
+.menu-categories .container{
+    display: grid;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+ 
+}
+.inner-container{
+    padding: 20px 10px;
+}
+.menu-categories .container .card{
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+}
+.menu-categories .container .card h2{
+    padding: 5px;
+}
+.menu-categories .container .card p{
+   padding: 10px;
+   font-size: large;
+}
+.menu-categories .container .card a{
+   color: black;
+   padding: 5px 0 0 0;
+   font-size: larger;
+   font-weight: bold;
+}
+/* end menu section */
+
+/* start burger components */
+.burger-components{
+      display: flex;
+    justify-content: center;
+      align-items: center;
+  height: fit-content;
+
+width: 100%;
+}
+.burger-components .container{
+    width: 80%;
+    height: 80%;
+      display: grid;
+    justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+     
+}
+.burger-components .container .burger-comp-img{
+display: flex;
+justify-content: center;
+align-items: start;
+}
+.burger-components .container .burger-comp-img img{
+    display: inline-block;
+      width: 90%
+}
+.burger-components ul{
+    font-size: 1.5em;
+    display: flex;
+  align-items: start;
+
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.burger-components ul li{
+      padding: 10px 0;
+      text-align: center;
+      
+}
+.burger-components ul  h3::before{
+  content: '\2764';
+    padding: 0 5px;
+  -webkit-text-stroke: 2px gold; 
+  color: transparent;
+ font-size: 1em;
+}
+/*  */
+
+/* contact */
+.contact{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.582)),url(images/bg.jpg);
+      background-size: cover;
+    background-position: bottom center  ;
+    background-repeat: no-repeat;
+    height: 350px;
+    color: white;
+    display: flex;
+      justify-content: center;
+  align-items: center;
+}
+.contact .data{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.contact-text{
+  display: flex;
+  justify-content: center;
+    flex-wrap: wrap;
+  font-size: 25px;
+}
+footer{
+  background-color:rgb(71, 67, 67) ;
+  color: white;
+  
+}
+footer p{
+  padding: 20px 0;
+  font-size: 15px;
+  text-align: center;
+}
