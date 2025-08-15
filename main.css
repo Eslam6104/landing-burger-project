@@ -38,7 +38,7 @@ h1{
 /*start header  */
 header{
         color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.587)), url('images/banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.587),rgba(0, 0, 0, 0.587)), url('images/banner.jpg');
     background-size: cover;
     background-position: center  ;
     background-repeat: no-repeat;
@@ -234,7 +234,7 @@ align-items: start;
 
 /* contact */
 .contact{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.582)),url(images/bg.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.587),rgba(0, 0, 0, 0.587)),url(images/bg.jpg);
       background-size: cover;
     background-position: bottom center  ;
     background-repeat: no-repeat;
@@ -266,4 +266,5 @@ footer p{
   padding: 20px 0;
   font-size: 15px;
   text-align: center;
+
 }
