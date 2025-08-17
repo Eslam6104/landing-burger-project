@@ -109,7 +109,7 @@ header .container{
 /* start header text second header part */
 .hero-text{
       height: 80%;
-      padding-top: 20px;
+      padding-top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -268,4 +268,5 @@ footer p{
   text-align: center;
 
 }
+
 
